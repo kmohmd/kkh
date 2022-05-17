@@ -5,7 +5,7 @@ function roundUp(x) {
 
 function CalculateMagic(a, b) {
     // add your code here
-    let number=a+b+c;
+    let number=a+b+b;
     number = number + 90;//divide it by 10
 
     number=number/10;// add90
@@ -24,7 +24,7 @@ function CalculateMagic(a, b) {
 
     let G=number/3;//divide previous by3
 
-    return roundup (G)
+    return roundUp (G)
 
     //remember to call roundup 
 
